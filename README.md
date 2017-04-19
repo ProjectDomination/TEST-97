@@ -23,6 +23,11 @@ else
 itemworth = 199700
 }
 ```
+The variable, `itemworth` is used for the value of a Point Item.
+
+`if y > 160` checks if the item is below the maximum value position, which is 160. If the item is below the maximum value position, the value of the variable `itemworth` will be changed to a value returned by `round(((352-point_distance(x,y,x,160))/352)*199700)`.
+
+`round(((352-point_distance(x,y,x,160))/352)*199700)` may look very complicated, but it is a simple code. `point_distance` returns the distance between the position of the item and the maximum value position. `352` is the maximum distance. By subtracting from the maximum distance `352`, the integer range is now "reversed", in which the distance getting closer will result to a higher value. `/352` will turn the value to--.
 
 This Point Item value code was used for Rejected Domination: Eternal Equinox (RD-1).
 
