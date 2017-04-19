@@ -9,7 +9,7 @@ movetest is a test game created to test a new bullet movement code, creating two
 
 This bullet movement code was used for Rejected Domination: Eternal Equinox (RD-1).
 
-### ID ID 892793336 - THScoreSys (thscoresys.gmk)
+### ID 892793336 - THScoreSys (thscoresys.gmk)
 THScoreSys is a test game created to showcase a new way to simulate one of the parts of Touhou's scoring system: Point Item worth. The value of each Point Item depends on their Y position (the position of the instance in Y-axis, vertical position). The maximum value of each Point Item is 199700.
 
 Usually, this code was used for the Creation Event and End Step Event.
